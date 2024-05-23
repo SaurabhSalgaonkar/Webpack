@@ -1,0 +1,10 @@
+@use "variables";
+
+body {
+    background-color: variables.$bgc;
+    color: variables.$tc;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
